@@ -26,16 +26,45 @@
 .header-1 {
     background-color: whitesmoke;
     grid-area: 1 / 2 / 2 / 3;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.header-1 .search {
+    margin: 30px;
+    margin-left: 10%;
 }
 
 .header-2 {
     background-color: whitesmoke;
     grid-area: 2 / 2 / 3 / 3;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    padding: 30px;
 }
 
 .main-content {
     background-color: darkgrey;
     grid-area: 3 / 2 / 4 / 3;
 
-    color: black
+    color: black;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3fr 2fr;
+}
+
+.projects {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.trending {
+    grid-area: 2 / 2 / 3 / 3;
 }
