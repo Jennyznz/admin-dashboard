@@ -15,10 +15,10 @@ button {
 }
 
 .sidebar {
-    background-color: #a7bed3;
+    background-color: #f6f7d3;
     grid-area: 1 / 1 / 4 / 2;
     
-    color:whitesmoke;
+    color:black;
     font-size: 20px;
     padding: 15%;
 
@@ -67,7 +67,7 @@ button {
 }
 
 .header-1 {
-    background-color: whitesmoke;
+    background-color: #f8fceb;
     grid-area: 1 / 2 / 2 / 3;
 
     display: flex;
@@ -85,7 +85,7 @@ button {
 input {
     width: 50vw;
 
-    color: whitesmoke;
+    color: black;
     border-radius: 20px;
     border: none;
     outline: none;
@@ -103,6 +103,10 @@ input {
     margin-right: 20px;
 }
 
+.search input {
+    background-color: #f6f7d3;
+}
+
 .header-1 .user-info {
     display: flex;
     gap: 20px;
@@ -114,7 +118,7 @@ input {
 }
 
 .header-2 {
-    background-color: whitesmoke;
+    background-color: #f8fceb;
     grid-area: 2 / 2 / 3 / 3;
 
     display: flex;
@@ -137,8 +141,8 @@ input {
 }
 
 .content-options button {
-    background-color: #a7bed3;
-    color: white;
+    background-color: #f6f7d3;
+    color: black;
     width: 75px;
     border-radius: 30px;
     padding: 10px;
@@ -146,7 +150,7 @@ input {
 }
 
 .main-content {
-    background-color: darkgrey;
+    background-color: #495664;
     grid-area: 3 / 2 / 4 / 3;
 
     color: black;
@@ -160,6 +164,7 @@ input {
 
 .main-content .label {
     margin-bottom: 10px;
+    color: #f8fceb;
 }
 
 .projects {
@@ -177,7 +182,7 @@ input {
 }
 
 .announcements-container {
-    background-color: whitesmoke;
+    background-color: #f8fceb;
     padding: 15px;
     border-radius: 10px;
 }
@@ -198,7 +203,7 @@ input {
 }
 
 .trending-container {
-    background-color: whitesmoke;
+    background-color: #f8fceb;
     padding: 15px;
     border-radius: 10px;
 }
@@ -208,7 +213,7 @@ input {
     flex-direction: column;
 
     height: 250px;
-    background-color: whitesmoke;
+    background-color: #f8fceb;
     padding: 15px;
     border-radius: 10px;
 }
